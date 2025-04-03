@@ -43,7 +43,7 @@ while True:
     
     # Wersja BEZ systemowej wiadomości
     response_without_system = llm.invoke([
-        HumanMessage(content=user_input)  # Originalna wersja
+        HumanMessage(content=user_input)  # Originalna wersja bez systemowego prompta
     ])
     
     # NEW: Wizualne porównanie
